@@ -1,0 +1,77 @@
+Spill
+Coronarisk
+
+ide
+kart over trondheim, delt inn i regioner. De ulike regionene har ulik verdi.
+	ting i spillet:
+		- butikker
+		- pol 	
+		- barer
+		- sprit
+		- studenthjem
+
+		
+ulike alkoholtyper:
+	- prosent
+	- enheter
+	- pris
+
+Inntjening
+	- områder med høy studentprosent gir større inntjenning
+	- områder med barer
+
+
+klasser:
+	- maptiles
+		- attributter
+		- studenter
+	- alkoholer
+		- pris
+		- alkoholprosent
+		- enhet
+	- attributter:
+		- har følgende:
+			- navn:
+			- Ølpris:
+			- Sprit:
+			- Vinpris:
+ 
+		- bar
+			- ølpris 200%
+			- sprit 100 %
+			- vin 0 %
+			
+		- pol
+			- Vin 100 %
+			- Øl 100%
+			- vin 100%
+
+		- butikk
+			- øl 100 %
+			- vin 0 %
+			- sprit 0 % 
+
+		- resturant
+			- Øl 150 %
+			- Vin 125 %
+			- sprit 150 %
+
+	- dagssyklus
+		- alkoholsalg i butikk mandag- lørdag
+		- spritsalg på pol mandag - lørdag
+		- resturant 7 dager i uken
+		- bar 7 dager i uken
+
+Functions
+	- init map:
+		- dynamisk
+		- static
+	- init types:
+
+
+	game function loop:
+		- deploy reinforcements
+		- attack borders
+		- change turn
+		
+

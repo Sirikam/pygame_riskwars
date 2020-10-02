@@ -1,0 +1,36 @@
+Desc
+
+Terrain types
+- road, movement 3, spirits 0, wine 0, beer 0, students 0,
+- apartment, movement 1, spirits 0, wine 0, beer 0, students 1,
+- river, movement 0, spirits 0, wine 0, beer 0, students 0,
+- bridge, movement 2, spirits 0, wine 0, beer 0, students 0,
+- pol, movement 1, spirits 1, wine 1, beer 1, students 0,
+- bar, movement 1, spirits 1, wine 1, beer 0, students 0,
+- store, movement 1, spirits 0, wine 0, beer 1, students 0,
+- Sea, movement 0, spirits 0, wine 0, beer 0 , students 0,
+
+- samf, movement 1, spirits 1, wine 1, beer 1 , students 1,
+- DT, movement 1, spirits 1, wine 1, beer 1 , students 1,
+- Heidis, movement 1, spirits 1, wine 1, beer 1 , students 1,
+- Byhaven, movement 1, spirits 1, wine 1, beer 1 , students 1,
+
+Values
+- spirit, combat 8, students 3,
+- wine, combat 3, students 2,
+- beer, combat 2, students 1,
+- students, students +2,
+- day, all effects +1,
+- month
+
+Events
+- cavaSøndag, effect on sunday, wine +2, duration 1 day
+- badekar padling, effect river movement +2, duration 7 days, condition month =
+- Fadderuke, beer +2, wine +2, spirits +1, duration 14 days, condition month = august
+- Uka, beer +1, wine +1, spirit +1, duration 28 days, condition month =
+- oktoberfest, beer +1, wine +1, spirit +1, duration 2 days condition month = october
+- åre, beer -1, wine -1, spirit -1, students -1, duration 7 days, condition month = januar
+- eksamensperiode, beer 2, wine 2, spirit 2, students -2, conditon month = december or may
+- eksursjon, student -2, condition month = march
+
+
