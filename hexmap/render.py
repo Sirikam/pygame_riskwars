@@ -37,7 +37,7 @@ class Render( pygame.Surface ):
 	def height( self ):
 		return ( self.map.rows + .5 ) * self.radius * SQRT3 + 1
 
-	def get_surface( self, ( row, col ) ):
+	def get_surface( self,  row, col  ):
 		"""
 		Returns a subsurface corresponding to the surface, hopefully with trim_cell wrapped around the blit method.
 		"""
@@ -66,7 +66,7 @@ class Render( pygame.Surface ):
 		self.fill( color )
 
 	# Identify cell
-	def get_cell( self, ( x, y ) ):
+	def get_cell( self,  x, y  ):
 		"""
 		Identify the cell clicked in terms of row and column
 		"""

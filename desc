@@ -1,19 +1,20 @@
 Desc
 
 Terrain types
-- road, movement 3, spirits 0, wine 0, beer 0, students 0,
-- apartment, movement 1, spirits 0, wine 0, beer 0, students 1,
-- river, movement 0, spirits 0, wine 0, beer 0, students 0,
-- bridge, movement 2, spirits 0, wine 0, beer 0, students 0,
-- pol, movement 1, spirits 1, wine 1, beer 1, students 0,
-- bar, movement 1, spirits 1, wine 1, beer 0, students 0,
-- store, movement 1, spirits 0, wine 0, beer 1, students 0,
-- Sea, movement 0, spirits 0, wine 0, beer 0 , students 0,
+- road, movement 3, spirits 0, wine 0, beer 0, students 0, terrain R
+- apartment, movement 1, spirits 0, wine 0, beer 0, students 3, terrain A
+- river, movement 0, spirits 0, wine 0, beer 0, students 0, terrain O
+- bridge, movement 2, spirits 0, wine 0, beer 0, students 0, terrain Ø
+- pol, movement 1, spirits 1, wine 1, beer 1, students 0, terrain V
+- bar, movement 1, spirits 1, wine 1, beer 0, students 0, terrain Bar
+- store, movement 1, spirits 0, wine 0, beer 1, students 0, terrain Store
+- Sea, movement 0, spirits 0, wine 0, beer 0 , students 0, terrain O
+- park, movement 2, spirits 0, wine 0, beer 0, students 1, terrain P
 
-- samf, movement 1, spirits 1, wine 1, beer 1 , students 1,
-- DT, movement 1, spirits 1, wine 1, beer 1 , students 1,
-- Heidis, movement 1, spirits 1, wine 1, beer 1 , students 1,
-- Byhaven, movement 1, spirits 1, wine 1, beer 1 , students 1,
+- samf, movement 1, spirits 1, wine 1, beer 1 , students 1, terrain SAMF
+- DT, movement 1, spirits 1, wine 1, beer 1 , students 1, terrain DT
+- Heidis, movement 1, spirits 1, wine 1, beer 1 , students 1, terrain He
+- Byhaven, movement 1, spirits 1, wine 1, beer 1 , students 1, terrain By
 
 Values
 - spirit, combat 8, students 3,
@@ -32,5 +33,7 @@ Events
 - åre, beer -1, wine -1, spirit -1, students -1, duration 7 days, condition month = januar
 - eksamensperiode, beer 2, wine 2, spirit 2, students -2, conditon month = december or may
 - eksursjon, student -2, condition month = march
+- WineDay, wine +2 at samf, condition day = tuesday
+- Vacation, students -1, condition
 
 

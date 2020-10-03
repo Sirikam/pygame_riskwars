@@ -15,7 +15,7 @@ class Map( object ):
 	"""
 	directions = [ ( 0, 1 ), ( 1, 1 ), ( 1, 0 ), ( 0, -1 ), ( -1, -1 ), ( -1, 0 ) ]
 
-	def __init__( self, ( rows, cols ), *args, **keywords ):
+	def __init__( self,  rows, cols , *args, **keywords ):
 		#Map size
 		self.rows = rows
 		self.cols = cols
